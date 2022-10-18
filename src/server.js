@@ -26,4 +26,4 @@ app.use(categoriesRouter)
 app.use(subCategoriesRouter)
 
 
-app.listen( PORT || 4005, () => console.log("server is running on port: " + PORT) )
+app.listen( PORT || 5000, () => console.log("server is running on port: " + PORT) )

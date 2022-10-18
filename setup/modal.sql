@@ -18,13 +18,6 @@ create table events(
     count int DEFAULT 0
 );
 
-DROP TABLE view_count;
-create table view_count(
-    id serial primary key,
-    event_id int references events(id),
-    ip varchar(30)
-);
-
 DROP TABLE category;
 create table category(
     id serial,
